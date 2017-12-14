@@ -1,0 +1,29 @@
+{
+  "name": "nekis.vticd.api",
+  "version": "1.0.0",
+  "description": "API providing vietnamiese translation to ICD for educational purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nekiscz/nekis.vticd.api.git"
+  },
+  "keywords": [
+    "ICD",
+    "WHO",
+    "vietnamiese",
+    "translation",
+    "api"
+  ],
+  "author": "David Nekovář",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nekiscz/nekis.vticd.api/issues"
+  },
+  "homepage": "https://github.com/nekiscz/nekis.vticd.api#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
