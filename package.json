@@ -4,7 +4,8 @@
   "description": "API providing vietnamiese translation to ICD for educational purposes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "start:watch": "nodemon index"
   },
   "repository": {
     "type": "git",
