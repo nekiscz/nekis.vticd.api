@@ -1,0 +1,67 @@
+{
+    "type": "category",
+    "languages": [
+        "eng",
+        "vn"
+    ],
+    "department": "",
+    "code": "",
+    "block": "",
+    "chapter": "",
+    "eng": {
+        "subbclass": [
+            {
+                "code": "",
+                "superclass": "",
+                "preferedong": "",
+                "prefered": "",
+                "inclusion": [
+                    "",
+                    ""
+                ],
+                "exclusion": [
+                    "",
+                    ""
+                ]
+            }
+        ],
+        "preferedLong": "",
+        "prefered": "",
+        "inclusion": [
+            "",
+            ""
+        ],
+        "exclusion": [
+            "",
+            ""
+        ]
+    },
+    "vn": {
+        "subbclass": [
+            {
+                "code": "",
+                "superclass": "",
+                "preferedong": "",
+                "prefered": "",
+                "inclusion": [
+                    "",
+                    ""
+                ],
+                "exclusion": [
+                    "",
+                    ""
+                ]
+            }
+        ],
+        "preferedLong": "",
+        "prefered": "",
+        "inclusion": [
+            "",
+            ""
+        ],
+        "exclusion": [
+            "",
+            ""
+        ]
+    }
+}
