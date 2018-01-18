@@ -1,14 +1,12 @@
 const express = require('express');
 const router = express.Router({margeParams: true});
 
-router.get('/', (req, res) => {
-    res.send({type: 'GET', path: 'root'});
+router.get('/login/:provider', (req, res) => {
+    res.send({type: 'GET', path: 'root' + req.path});
 });
 
-router.get('/:id', (req, res) => {
-    res.send({type: 'GET', path: 'root + ' + req.path});
+router.get('/logout', (req, res) => {
+    res.send({type: 'GET', path: 'root' + req.path});
 });
-
-
 
 module.exports = router;

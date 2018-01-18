@@ -1,7 +1,12 @@
 const express = require('express');
 const routes = require('./routes/api');
+const bodyParser = require('body-parser');
+const xmlParser = require('express-xml-bodyparser');
 
 const app = express();
+
+app.use(bodyParser.json());
+app.use(xmlParser({ mergeAttrs: true, explicitArray: false}))
 
 app.use('/api/v0', routes);
 
