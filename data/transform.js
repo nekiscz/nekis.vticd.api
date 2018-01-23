@@ -1,11 +1,4 @@
-function category(obj) {
-    // console.log(`${obj.kind} - ${obj.code}`)
-
-    // if (obj.kind != 'category') {
-    //     console.log(`--- object doesn't contain category tag`);
-    //     return;
-    // }
-
+function clamlItem(obj) {
     transformed = {
         type: obj.kind,
         code: obj.code,
@@ -26,7 +19,6 @@ function category(obj) {
 }
 
 function transformLabel(l) {
-    // console.log(`original labels: ${JSON.stringify(l)}`)
     var transformed = [];
 
     if (l.label.fragment) {
@@ -48,8 +40,7 @@ function transformLabel(l) {
         };
     }
 
-    //console.log(`transformed labels: ${JSON.stringify(transformed)}`)
     return transformed;
 }
 
-module.exports = {category};
+module.exports = {clamlItem};

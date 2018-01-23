@@ -2,7 +2,9 @@ const express = require('express');
 const routes = require('./routes/api');
 const bodyParser = require('body-parser');
 const xmlParser = require('express-xml-bodyparser');
+const database = require('./data/connect');
 
+database.connectDatabase();
 const app = express();
 
 app.use(bodyParser.json());

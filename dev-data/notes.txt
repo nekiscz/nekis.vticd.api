@@ -1,4 +1,2 @@
-- can use xml2js-parser for reading the XML file
-
-To get the class code use 'object.claml.class[n].$.code', this means that i need to 
-work with 'object.claml.class' only.
+- `{ mergeAttrs: true, explicitArray: false}` removes $ from parsed JSON and creates usable arrays
+- 

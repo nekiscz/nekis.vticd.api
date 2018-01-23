@@ -28,6 +28,7 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "express-xml-bodyparser": "^0.3.0",
+    "mongoose": "^5.0.1",
     "xml2js-parser": "^1.1.1"
   }
 }
