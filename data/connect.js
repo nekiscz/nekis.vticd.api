@@ -1,5 +1,6 @@
-const mongoose = require('mongoose');
-const databaseConfig = require('../config/database.config');
+const
+    mongoose = require('mongoose'),
+    databaseConfig = require('../config/database.config');
 
 function connectDatabase() {
     mongoose.connect(databaseConfig.mongoConnectionString);
